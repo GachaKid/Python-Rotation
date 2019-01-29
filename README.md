@@ -1,4 +1,5 @@
 # This is the Microbit Code
+![Image of Microbit](https://microbit.org/images/microbit-front.png)
 ### The code itself will be organized by the individual functions
 #### Scisscors
 *Code for Scisscors*
@@ -14,3 +15,7 @@
 -
 #### Radio Signal Sending
 *Code for signal*
+
+Work done on
+>Microbit website, [link here.](https://microbit.org/code/)
+>- BY JUAN
