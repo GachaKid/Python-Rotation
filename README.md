@@ -1,4 +1,4 @@
-# This is the microbit code
+# This is the Microbit Code
 ### The code itself will be organized by the individual functions
 #### Scisscors
 *Code for Scisscors*
