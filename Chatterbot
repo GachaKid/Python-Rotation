@@ -1,0 +1,77 @@
+print("Hello I'm EpicGamer")
+print("My area of expertise are games")
+genre = 0
+input()
+while not (genre == "1" or genre == "2" or genre == "3" or genre == "4" or genre == "5" or genre == "6") :
+    print(" Alright, now choose a genre we can discuss")
+    print("1. FPS Games")
+    print("2. RPG Games")
+    print("3. Mobile Games")
+    print("4. Console Wars")
+    print("5. Battle Royales, I guess")
+    print("6. I don't play games")
+    genre = input()
+    if genre == "1":
+        FPS = 0
+        print(" What specific FPS Games?")
+        FPS = input()
+        if FPS == "Black Ops":
+            print("One of my favorites series of Call of Duty games, probably the best TBH.")     
+        elif FPS == "Overwatch":
+            print("Blizzard is a great company.")
+        elif FPS == "Halo":
+            print("Halo Reach?")
+        elif FPS == "CS:GO":
+            print("Rush B")
+        elif FPS == "Team Fortress 2":
+            print("Original Overwatch")
+        elif FPS == "Rainbow Six Siege":
+            print("Heard alot about it but still haven't played it.")
+        elif FPS == "R6S":
+            print("Heard alot about it but still haven't played it.")
+        else:
+            print("Can't say I've heard of that one.")
+    elif genre == "2":
+        print(" What specific RPG Games?")
+    elif genre == "3":
+        print
+        print(" Any in particular?")
+    elif genre == "4":
+        console = 0
+        print("What do you play on?")
+        console = input()
+        if console == "PS4" :
+            print("Yo, same")
+        elif console == "PC":
+            print("PC Master race ")
+        elif console == "Xbox":
+            print("Disgusting")
+        elif console == "Nintendo Switch" :
+            print("Smash?")
+        else:
+            print("What console is that?")
+            input()
+            print("Sorry, nope.")
+    elif genre == "5":
+        BR = 0
+        print("Why did these blow up out of nowhere?")
+        print("Anyways, any in particular?")
+        BR = input()
+        if BR == "PUBG":
+            print(" I remember when its game idea was original, now look where we are.")
+        elif BR == "Blackout":
+            print("Honestly one of the better executed battle royales.")
+        elif BR == "Fortnite":
+            print(" Yea, no surprise there.")
+            print(" I'd rather not speak of it.")
+        elif BR == "Apex Legends":
+            print("Better Fornite")
+            print(" Just like Fortnite itself is a better PUBG.")
+        else:
+            print("New game, old one that I forgot about?")
+    elif genre == "6":
+        print("Well uh, that's going to complicate things.")
+        print(" I don't really know much else.")
+        
+    else:
+        print("Please input with the corresponding numbers.")
